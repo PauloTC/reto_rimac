@@ -1,0 +1,49 @@
+.aside {
+  width: 45%;
+  background: #ECF0FF;
+  display: flex;
+  position: relative;
+  &_container {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+  &_action {
+    font-size: 12px;
+  }
+  &_title {
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0;
+  }
+  &_title strong {
+    font-weight: normal;
+    color: #EF3340;
+  }
+  &_subtitle {
+    font-size: 14px;
+    margin-top: 16px;
+  }
+  &_copy {
+    font-size: 12px;
+    color: #A3ABCC;
+    font-weight: 300;
+    position: absolute;
+    bottom: 10px;
+    max-width: 80%;
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .aside {
+    width: 100%;
+    &_copy {
+      display: none;
+    }
+  }
+}

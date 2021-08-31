@@ -1,0 +1,20 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.leftside {
+  display: flex;
+  align-items: center;
+  width: 55%;
+}
+
+
+@media (max-width: 768px) {
+  .leftside {
+    width: 100%;
+  }
+}

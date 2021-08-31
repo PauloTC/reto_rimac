@@ -1,0 +1,25 @@
+.plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  &_aside{
+    width: 30%;
+    background: #ECF0FF;
+  }
+  &_body {
+    width: 70%;
+    padding-left: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  &_aside,
+  &_body {
+    display: flex;
+    height: 100%;
+  }
+  &_mount {
+    display: flex;
+  }
+}

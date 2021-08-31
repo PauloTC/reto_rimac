@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+  }
+  
+  .info{
+    display: flex;
+    align-items: center;
+  }
+  
+  .figure {
+    margin: 0;
+    position: relative;
+    z-index: 5;
+  }

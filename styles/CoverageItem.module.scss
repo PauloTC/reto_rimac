@@ -1,0 +1,19 @@
+.coverage {
+  position: relative;
+  max-width: 280px;
+  width: 100%;
+  &_title {
+    margin: 0;
+  }
+  &_arrow {
+    position: absolute;
+    left: 100%;
+    top: 0;
+  }
+  &_arrow:checked + label {
+    display: block;
+  }
+  &_text {
+    display: none;
+  }
+}
